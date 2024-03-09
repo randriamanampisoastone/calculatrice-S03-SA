@@ -1,0 +1,78 @@
+* {
+  user-select: none;
+  font-size: 30px;
+  font-weight: 600;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 320px;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(10, 99, 169, 0.16),
+    -5px -5px 5px rgba(255, 255, 255, 0.7),
+    -5px -5px 5px rgba(10, 99, 169, 0.16), 5px 5px 5px rgba(255, 255, 255, 0.7);
+}
+#ecran {
+  width: 85%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  margin: 10px 0;
+  padding: 0 10px;
+  box-shadow: inset 2px 2px 5px rgba(10, 99, 169, 0.16),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.7),
+    inset -2px -2px 5px rgba(10, 99, 169, 0.16),
+    inset 2px 2px 5px rgba(255, 255, 255, 0.7);
+}
+.boutons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 85%;
+  height: 75%;
+}
+.btn-block {
+  display: flex;
+  justify-content: space-between;
+}
+.bouton {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(10, 99, 169, 0.16),
+    -5px -5px 5px rgba(255, 255, 255, 0.7);
+  transition-duration: 0.8s;
+}
+.bouton:active {
+  box-shadow: inset 5px 5px 5px rgba(10, 99, 169, 0.16),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.7);
+}
+.chiffre {
+  color: rgb(98, 94, 90);
+}
+.efface {
+  color: rgb(213, 23, 36);
+}
+.point {
+  color: aquamarine;
+}
+.operateur {
+  color: rgb(128, 203, 205);
+}
+.egal {
+  color: blueviolet;
+}
